@@ -1,0 +1,74 @@
+* {
+  background-color: whitesmoke;
+}
+
+.title {
+  text-align: center;
+}
+
+.form {
+  text-align: center;
+}
+
+::placeholder {
+  text-align: center;
+}
+
+.search {
+  background-color: white;
+  margin-bottom: 10px;
+  width: 30%;
+}
+
+.columnFilter, .comparison {
+  background-color: white;
+  margin-right: 10px;
+}
+
+.valueFilter {
+  background-color: white;
+  text-align: center;
+}
+
+.button-filter {
+  background-color: rgba(52, 131, 250, 1);
+  border-color: transparent;
+  border-radius: 20px;
+  box-shadow: 0 0 0 0 white;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin: 10px auto 0;
+  padding: 3px;
+  width: 20%;
+}
+
+.button-filter:hover {
+  background-color: rgb(23, 110, 240);
+}
+
+.hr-table {
+  border-color: rgba(65, 137, 230, 0.15);
+  margin: 20px auto;
+  width: 30%;
+}
+
+.table {
+  background-color: white;
+  margin: 20px auto;
+  padding: 5px;
+}
+
+thead th {
+  background-color: white;
+  padding: 5px 10px;
+}
+
+tbody {
+  text-align: center;
+}
+
+tbody td {
+  background-color: white;
+}
